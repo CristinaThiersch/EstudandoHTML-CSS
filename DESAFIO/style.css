@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #82D9A0;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(to bottom, #38C979, #34BA70, #1B6139);
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+p{
+    text-indent: 20px;
+}
+header > h1{
+    text-align: center;
+    font-weight: 100;
+}
+header > h3{
+    text-align: center;
+    font-weight: 100;
+}
+nav > a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    width: auto;
+    margin: 0 auto 0 auto;
+    padding-left: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     
+}
+
+article > h1{
+    margin: 0;
+    font-family: idroid;
+    color: #1B6139;
+    font-size: 2em;
+}
+
+article > h2{
+    margin: 0;
+    font-family: idroid;
+    color: #1B6139;
+    font-size: 2em;
+    background-image: linear-gradient(to right, #82d9a0a0, #ffffff);
+}
+#aprenderMais{
+    background-color: #95f8b888;
+    border-radius: 10px 10px;
+    margin: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+}
+#aprenderMais > h4{
+    background-color: #2b9e5f7e;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+#aprenderMais > p{
+    padding: 15px;
+}
+footer{
+    background-color: #1B6139;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin-top: 15px;
+}
+li{
+    list-style: symbols('\e052');
+}
+#video{
+    background-color: #1B6139;
+    margin: 0;
+    text-align: center;
+}
+.imagens{
+    margin: 0;
+    text-align: center;
+}
